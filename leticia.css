@@ -1,0 +1,26 @@
+#imagem{
+	width: 35%;
+}
+
+ label {
+	display: block;
+
+
+}
+main{
+	display: inline-block;
+}
+h1{
+	color: green;
+}
+
+form label, form p {
+  display: block; 
+  font-size: 20px
+   margin: 0 0 20px;
+    color: blue;
+    }
+
+.checkbox {
+margin: 20px 0;
+}
