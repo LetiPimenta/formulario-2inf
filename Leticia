@@ -1,0 +1,46 @@
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Minha Pagina</title>
+	<meta charset="UTF-8">
+
+</head>
+<body>
+		<h1> Escola</h1>
+		<img src="livro.jpg" id="imagem">
+	<main>
+		<form>
+		<p>Escolha a Matéria</p>
+							<select>
+								<option>Matemática</option>
+								<option>História</option>
+								<option>Geografia</option>
+								<option>Ciências</option>
+								<option>Portugues</option>
+							</select>
+	</main>
+		<p>Escolha o turno</p>
+		<label for="radio-manha"><input type="radio" name="manha" id="radio-manha">Manhã</label>
+		<label for="radio-tarde"><input type="radio" name="tarde" id="radio-tarde">Tarde</label>
+		<label for="radio-noite"><input type="radio" name="noite" id="radio-noite">Noite</label>
+
+		<label for="rua ">Rua </label>
+		<input type="text" id="rua">
+
+		<label for="bairro ">Bairro </label>
+		<input type="text" id="bairro">
+
+		<label for="cidade ">Cidade </label>
+		<input type="text" id="cidade">
+
+		<label for="estado ">Estado </label>
+		<input type="text" id="estado">
+
+
+
+
+	<p><input type="submit" value ="Entregar"></p>
+</form>
+</body>
